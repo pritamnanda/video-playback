@@ -1,4 +1,4 @@
-<script>
+
   function downloadVideo() {
     // Get the video element by its ID
     var videoElement = document.getElementById('video');
@@ -21,4 +21,4 @@
     // Remove the download link from the document
     document.body.removeChild(downloadLink);
   }
-</script>
+
