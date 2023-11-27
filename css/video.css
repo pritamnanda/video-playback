@@ -87,7 +87,7 @@ header > h1 {
 }
 
 
-#download-button {
+header > download-button {
         margin-left: 10px;
         background-color: #3498db;
         color: #fff;
@@ -98,17 +98,14 @@ header > h1 {
         transition: background-color 0.3s;
       }
 
-      #download-button:hover {
+header > download-button:hover {
         background-color: #2980b9;
       }
 
-      #logo {
+header > logo {
         max-width: 150px; /* Adjust the width as needed */
         height: auto;
       }
-
-
-
 
 
 #main-area > #video-area {
