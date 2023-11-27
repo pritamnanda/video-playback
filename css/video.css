@@ -24,6 +24,9 @@ body {
 }
 header {
   background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   border-bottom: 1px solid #e2e2e2;
   padding: 0 5%;
   -ms-flex: 0 0 auto;
