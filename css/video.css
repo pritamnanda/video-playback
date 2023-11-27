@@ -129,6 +129,27 @@ header > h1 {
   margin-bottom: 4px;
 }
 
+#download-button {
+        margin-left: 10px;
+        background-color: #3498db;
+        color: #fff;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      #download-button:hover {
+        background-color: #2980b9;
+      }
+
+      #logo {
+        max-width: 150px; /* Adjust the width as needed */
+        height: auto;
+      }
+
+
 @media all and (max-width: 48rem) {
   main {
     -ms-flex: 1 0 auto;
