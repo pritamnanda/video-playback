@@ -24,9 +24,6 @@ body {
 }
 header {
   background: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   border-bottom: 1px solid #e2e2e2;
   padding: 0 5%;
   -ms-flex: 0 0 auto;
@@ -85,28 +82,6 @@ header > h1 {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-
-
-header > download-button {
-        margin-left: 10px;
-        background-color: #3498db;
-        color: #fff;
-        border: none;
-        padding: 10px 15px;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s;
-      }
-
-header > download-button:hover {
-        background-color: #2980b9;
-      }
-
-header > logo {
-        max-width: 150px; /* Adjust the width as needed */
-        height: auto;
-      }
-
 
 #main-area > #video-area {
   -ms-flex: 1 1 auto;
